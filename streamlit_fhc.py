@@ -326,7 +326,7 @@ if selected_option == 'Visualization of Data':
 
     st.subheader("Visualization of Data")
 
-
+#Target analysis
     st.header("Target Analysis")
     chart_choice = st.selectbox("Plots", ["Plot Type", "Box Plot", "Histogram Plot", "Bar Plot"])
     if chart_choice == "Plot Type":
